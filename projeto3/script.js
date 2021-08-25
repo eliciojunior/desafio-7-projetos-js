@@ -5,7 +5,7 @@ document.querySelector('.busca').addEventListener('submit', async (event) => {
     hideInfo()
     showWarning('Carregando as informações...')    
     
-    const apikey = '48d42f25c20662c7f574bd7d049f5932'
+    const apikey = '<OPENWEATHER_API_KEY>'
     const units = 'metric'
     const lang = 'pt_br'
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(city)}&appid=${apikey}&units=${units}&lang=${lang}`
